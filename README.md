@@ -1,13 +1,13 @@
-# Mi Aplicaci¨®n Ionic + Angular
+# Mi Aplicacion Ionic + Angular
 
-Bienvenido a **Mi Aplicaci¨®n**, un proyecto desarrollado con **Ionic** y **Angular**. ðŸš€
+Bienvenido a **Mi Aplicacion**, un proyecto desarrollado con **Ionic** y **Angular**. ðŸš€
 
-## Caracter¨ªsticas
+## Caracteristicas
 - **Interfaz moderna** con Ionic.
 - **Componentes reutilizables** (Header, Footer, etc.).
 
-## Instalaci¨®n
-Sigue estos pasos para instalar y ejecutar el proyecto en tu m¨ªquina local:
+## Instalacion
+Sigue estos pasos para instalar y ejecutar el proyecto en tu miquina local:
 
 ### 1. Clonar el Repositorio
 ```bash
@@ -20,20 +20,20 @@ cd tu-repo
 npm install
 ```
 
-### 3. Ejecutar la Aplicaci¨®n
+### 3. Ejecutar la Aplicacion
 ```bash
 ionic serve
 ```
-La aplicaci¨®n se abrir¨¢ en `http://localhost:8100`.
+La aplicacion se abrira en `http://localhost:8100`.
 
 
-## Tecnolog¨ªas Usadas
-- **Ionic Framework** (UI y navegaci¨®n)
+## Tecnologias Usadas
+- **Ionic Framework** (UI y navegacion)
 - **Angular** (Estructura del proyecto)
-- **TypeScript** (C¨®digo tipado)
+- **TypeScript** (Codigo tipado)
 
 ## ðŸ“œ Licencia
-Este proyecto est¨¢ bajo la licencia **MIT**. Puedes usarlo y modificarlo libremente.
+Este proyecto esta bajo la licencia **MIT**. Puedes usarlo y modificarlo libremente.
 
 ---
 *Si te gustÃ³ este proyecto, no olvides darle una star GitHub.*
