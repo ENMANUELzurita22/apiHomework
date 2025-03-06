@@ -68,12 +68,6 @@ src/
 
 ---
 
-## 🎨 Estilos y Temas
-- `theme/variables.scss` → Variables de colores y estilos globales.
-- `global.scss` → Estilos generales de la aplicación.
-
----
-
 ## 🌍 Configuración de Entornos (`environments/`)
 - `environment.ts` → Configuración para desarrollo.
 - `environment.prod.ts` → Configuración para producción.
@@ -106,12 +100,7 @@ ionic serve
 ## 🛠 Tecnologías Usadas
 - **Ionic Angular**
 - **TypeScript**
-- **SCSS**
-- **Capacitor**
+- **Router**
 - **Firebase / API externa (opcional)**
 
 ---
-
-## 📩 Contacto
-Si tienes dudas o sugerencias, contáctanos en [correo@example.com](mailto:correo@example.com).
-
