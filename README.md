@@ -1,40 +1,117 @@
-# Mi Aplicacion Ionic + Angular
+# 🚀 Proyecto Ionic Angular
 
-Bienvenido a **Mi Aplicacion**, un proyecto desarrollado con **Ionic** y **Angular**. 🚀
+## 📌 Descripción
+Este proyecto está desarrollado con **Ionic Angular** y sigue una arquitectura modular bien organizada. Se compone de diferentes módulos y servicios que permiten gestionar funcionalidades como productos, carrito de compras y pagos.
 
-## Caracteristicas
-- **Interfaz moderna** con Ionic.
-- **Componentes reutilizables** (Header, Footer, etc.).
+---
 
-## Instalacion
-Sigue estos pasos para instalar y ejecutar el proyecto en tu miquina local:
+## 📂 Estructura del Proyecto
+El proyecto está estructurado de la siguiente manera:
 
-### 1. Clonar el Repositorio
-```bash
-git clone https://github.com/ENMANUELzurita22/apiHomework.git
-cd tu-repo
+```
+src/
+│── app/
+│   ├── components/          # Componentes reutilizables
+│   │   ├── cart-item/
+│   │   ├── filter-dropdown/
+│   │   ├── header/
+│   │   ├── product-card/
+│   │
+│   ├── core/                # Servicios, modelos y módulos compartidos
+│   │   ├── models/
+│   │   ├── services/
+│   │   ├── shared/
+│   │
+│   ├── modules/             # Módulos organizados por funcionalidad
+│   │   ├── cart/
+│   │   ├── checkout/
+│   │   ├── products/
+│   │
+│   ├── pages/               # Páginas independientes
+│   │   ├── splash/
+│
+│── assets/                  # Archivos estáticos (íconos, imágenes)
+│── environments/            # Configuración de entornos
+│── theme/                   # Estilos globales
+│── main.ts                  # Punto de entrada principal
+│── app.module.ts            # Módulo principal
+│── app-routing.module.ts    # Rutas principales
 ```
 
-### 2. Instalar Dependencias
+---
+
+## 📦 Módulos Principales
+
+### 🛒 **Carrito de Compras (`cart/`)**
+- `cart.module.ts` → Módulo del carrito.
+- `cart-routing.module.ts` → Configuración de rutas.
+- `cart.component.ts` → Componente principal del carrito.
+
+### 💳 **Pago (`checkout/`)**
+- `checkout.module.ts` → Módulo de pago.
+- `checkout-routing.module.ts` → Configuración de rutas.
+- `checkout.component.ts` → Componente de pago.
+- `summary.component.ts` → Resumen de compra.
+
+### 🛍 **Productos (`products/`)**
+- `product.module.ts` → Módulo de productos.
+- `product-routing.module.ts` → Configuración de rutas.
+- `home.component.ts` → Pantalla principal de productos.
+- `product-detail.component.ts` → Detalle del producto.
+
+---
+
+## ⚙️ Servicios Principales (`core/services/`)
+
+- `api.service.ts` → Manejo de peticiones HTTP.
+- `cart.service.ts` → Lógica del carrito de compras.
+
+---
+
+## 🎨 Estilos y Temas
+- `theme/variables.scss` → Variables de colores y estilos globales.
+- `global.scss` → Estilos generales de la aplicación.
+
+---
+
+## 🌍 Configuración de Entornos (`environments/`)
+- `environment.ts` → Configuración para desarrollo.
+- `environment.prod.ts` → Configuración para producción.
+
+---
+
+## 📜 Instalación y Ejecución
+### 1️⃣ Clonar el repositorio
+```bash
+git clone https://github.com/usuario/proyecto-ionic.git
+cd proyecto-ionic
+```
+### 2️⃣ Instalar dependencias
 ```bash
 npm install
 ```
-
-### 3. Ejecutar la Aplicacion
+### 3️⃣ Ejecutar la aplicación
 ```bash
 ionic serve
 ```
-La aplicacion se abrira en `http://localhost:8100`.
+---
 
-
-## Tecnologias Usadas
-- **Ionic Framework** (UI y navegacion)
-- **Angular** (Estructura del proyecto)
-- **TypeScript** (Codigo tipado)
-
-## 📜 Licencia
-Este proyecto esta bajo la licencia **MIT**. Puedes usarlo y modificarlo libremente.
+## 📌 Notas Importantes
+- **Asegúrate de tener instalado Ionic CLI** antes de ejecutar el proyecto.
+- **Personaliza las variables en `environment.ts`** según tu configuración.
+- **Usa `ionic build` para generar archivos listos para producción.**
 
 ---
-*Si te gustó este proyecto, no olvides darle una star GitHub.*
+
+## 🛠 Tecnologías Usadas
+- **Ionic Angular**
+- **TypeScript**
+- **SCSS**
+- **Capacitor**
+- **Firebase / API externa (opcional)**
+
+---
+
+## 📩 Contacto
+Si tienes dudas o sugerencias, contáctanos en [correo@example.com](mailto:correo@example.com).
 
